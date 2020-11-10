@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 # Flasgger-deployment
-Deploy risk classifier using Flasgger
-=======
-# Deploy-ML-Classifier-using-Flask
-Deploy a simple classifier using Flask on local network
+Deploy risk classifier using Flasgger on local network
 
 Make sure python is added to your PATH</b>
 
@@ -11,17 +7,17 @@ Make sure python is added to your PATH</b>
 Navigate to the folder
 
 <b>Step 2: Create new environment<br></b>
-python -m venv myflaskapp_env
+python -m venv myflasggerapp_env
 
 <b>Step 3: Activate the environment<br></b>
-myflaskapp_env\Scripts\activate.bat
+myflasggerapp_env\Scripts\activate.bat
 
 <b>Step 4: Install requirements<br></b>
 pip install -r requirements.txt
 
 <b>Step 5: Run the app<br></b>
-python flask_app.py
+python flasgger_app.py
 
-<b>Step 6: Execute requests using Postman<br></b>
-python flask_app.py
->>>>>>> a17f0845a28345b5291850e2e8aaed31ab1b3eda
+<b>Step 6: Execute requests on 127.0.0.1:5000/apidocs<br></b>
+
+
