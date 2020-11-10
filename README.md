@@ -1,2 +1,2 @@
 # Flasgger-deployment
-Deploy risk classifier using Flassger
+Deploy risk classifier using Flasgger
