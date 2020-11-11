@@ -10,7 +10,8 @@ Navigate to the folder
 python -m venv myflasggerapp_env
 
 <b>Step 3: Activate the environment<br></b>
-myflasggerapp_env\Scripts\activate.bat
+myflasggerapp_env\Scripts\activate.bat<br>
+For macOS: source myflasggerapp_env/bin/activate
 
 <b>Step 4: Install requirements<br></b>
 pip install -r requirements.txt
