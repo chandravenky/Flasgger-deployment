@@ -28,11 +28,11 @@ docker images
 <b>Step 8: Run the image<br></b>
 docker run -p 5000:5000 flasgger_api
 
-<b>At this step, you can open another instance of Anaconda prompt and use docker ps command to check your container
+At this step, you can open another instance of Anaconda prompt and use docker ps command to check your container
 
 <b>Step 9: Execute requests on http://localhost:5000/apidocs/<br></b>
 
-<b>Note :<b> If you are using Docker Toolbox: Go to the ip on which your docker toolbox is configured
+<b>Note :</b> If you are using Docker Toolbox: Go to the ip on which your docker toolbox is configured
 
 
 
