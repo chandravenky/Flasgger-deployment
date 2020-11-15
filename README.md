@@ -1,5 +1,5 @@
-# Flasgger-deployment
-Deploy risk classifier using Flasgger on local network
+# Flasgger-deployment using Docker
+Deploy risk classifier using Flasgger on local network using docker container
 
 Make sure python is added to your PATH</b>
 
@@ -16,9 +16,24 @@ For macOS: source myflasggerapp_env/bin/activate
 <b>Step 4: Install requirements<br></b>
 pip install -r requirements.txt
 
-<b>Step 5: Run the app<br></b>
-python flasgger_app.py
+<b>Step 5: Initialize docker - Check if you have docker<br></b>
+docker
 
-<b>Step 6: Execute requests on 127.0.0.1:5000/apidocs<br></b>
+<b>Step 6: Build docker image<br></b>
+docker build -t flasgger_api .
+
+<b>Step 7: Check if you have docker image running<br></b>
+docker images
+
+<b>Step 8: Run the image<br></b>
+docker run -p 5000:5000 flasgger_api
+
+<b>At this step, you can open another instance of Anaconda prompt and use docker ps command to check your container
+
+<b>Step 9: Execute requests on http://localhost:5000/apidocs/<br></b>
+
+<b>Note :<b> If you are using Docker Toolbox: Go to the ip on which your docker toolbox is configured
+
+
 
 
